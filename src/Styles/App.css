@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  width: 90%;
+  margin-top: 10px;
+  background-color: lightgray;
+}
+.container{
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    position: relative;
+}
+.productLink:hover{
+    cursor: pointer;
+    color: blue;
+}
+.buildTable{
+    margin-top: 10px;
+    background-color: lightblue;
+}
+.buildMultiPartTable{
+    background-color: teal;
+}
+.row{
+    position: relative;
+    width:100%;
+    margin:0px;
+}
+
+#itemSearchBar{
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#itemSearchBar>div>form>div>div{
+    margin-bottom: 0px;
+}
+#filterItems{
+    position: static;
+    padding: 0px;
+    width: 15%;
+    flex-grow: 0;
+    flex-basis: 20%;
+}
+.filterItemLabel{
+    height: 25px;
+}
+.filterBrand{
+    margin-left: 15px;
+}
+.filterPrice>div{
+    margin-left: 25px;
+    width: 100%;
+}
+#itemDisplay{
+    position: relative;
+    max-width: 80%;
+    flex: 0 0 80%;
+}
+
+.signInOrRegisterComponent{
+    text-align: left;
+    max-width: 40%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#frontpage1_img_div{
+    padding-left: 0px;
+    padding-top: 25px;
+}
+#frontpage2_img_div{
+    padding-top: 25px;
+}
+#frontpage3_img_div{
+    padding-right: 0px;
+    padding-top: 25px;
+}
+.frontpage1_img{
+    background-image: url(../images/prebuilt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 37%, 50%;
+    min-height: 500px;
+    min-width: 250px;
+
+}
+.frontpage2_img{
+    background-image: url(../images/start_a_build.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%, 50%;
+    min-height: 500px;
+    min-width: 250px;
+}
+.frontpage3_img{
+    background-image: url(../images/userbuilds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%, 50%;
+    min-height: 500px;
+    min-width: 250px;
+}
+
+.frontpage1_img:hover .img_desc{
+    cursor: pointer;
+    visibility: visible;
+    opacity: .7;
+    transition: opacity 1s, visibility 1s;
+}
+.frontpage2_img:hover .img_desc{
+    cursor: pointer;
+    visibility: visible;
+    opacity: .7;
+    transition: opacity 1s, visibility 1s;
+}
+.frontpage3_img:hover .img_desc{
+    cursor: pointer;
+    visibility: visible;
+    opacity: .7;
+    transition: opacity 1s, visibility 1s;
+}
+.img_desc{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s, visibility 1s;
+    background-color: gray;
+    height: 500px;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    font-size: 30px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
